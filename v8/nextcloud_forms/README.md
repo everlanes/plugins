@@ -17,9 +17,9 @@ Create a form and make it public. Copy the public link and pass it as the
 `link` parameter to the nextcloud_forms shortcut:
 
 ```
-{{% nextcloud_forms link="https://nextcloud_url/index.php/apps/forms/..." %}}
+{{% raw %}}{{% nextcloud_forms link="https://nextcloud_url/index.php/apps/forms/..." %}}
 Success Text
-{{% /nextcloud_forms %}}
+{{% /nextcloud_forms %}}{{% /raw %}}
 ```
 
 The `Success Text` is shown after the form is successfully sent to the server.
